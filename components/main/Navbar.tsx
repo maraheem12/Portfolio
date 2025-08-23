@@ -18,7 +18,7 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+          <span className="font-bold ml-[20px] text-2xl hidden md:block text-gray-300">
             M A Raheem
           </span>
         </a>
@@ -48,8 +48,8 @@ const Navbar = () => {
     <Image
       src={social.src}
       alt={social.name}
-      width={24}
-      height={24}
+      width={40}
+      height={40}
       className="cursor-pointer"
     />
   </a>

@@ -93,7 +93,7 @@ export const Skill_data = [
     },
     {
       name: "Leetcode",
-      src: "/leetcode.webp",
+      src: "/leetcode.png",
       link: "https://leetcode.com/u/maraheem812/",
     },
   ];

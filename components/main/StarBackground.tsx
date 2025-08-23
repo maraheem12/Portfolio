@@ -1,17 +1,18 @@
 "use client";
 
-import React, { useState, useRef, Suspense } from "react";
+import React, { useState, useRef, Suspense, JSX } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
-// @ts-ignore
+import * as THREE from "three";
+
+
 import * as random from "maath/random/dist/maath-random.esm";
 
-const StarBackground = (props: any) => {
-  const ref: any = useRef();
-  const [sphere] = useState(() =>
+const StarBackground = (props: JSX.IntrinsicElements["group"]) => {
+  const ref = useRef<THREE.Points>(null!);
+  const [sphere] = useState<Float32Array>(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
   );
-
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta/10;
     ref.current.rotation.y -= delta/15;
