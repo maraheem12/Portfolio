@@ -20,7 +20,7 @@ const Projects = () => {
 Built with scalable architecture to handle real-world transactions efficiently."
         />
         <ProjectCard
-          src="/portfolio.PNG"
+          src="/Portfolio.PNG"
           title="Portfolio Website"
           LiveLink="https://maraheem.vercel.app/"
           DemoLink="https://github.com/maraheem12/Portfolio"
