@@ -22,7 +22,7 @@ Built with scalable architecture to handle real-world transactions efficiently."
         <ProjectCard
           src="/portfolio.PNG"
           title="Portfolio Website"
-          LiveLink="https://magnus-lm3d.onrender.com/"
+          LiveLink="https://maraheem.vercel.app/"
           DemoLink="https://github.com/maraheem12/Portfolio"
           description="A sleek, interactive portfolio showcasing projects, skills, and achievements.
 Optimized for performance and designed to leave a lasting impression."
