@@ -12,7 +12,7 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/careerflow.PNG"
+          src="/careerflow.PNG" 
           title="CareerFlow – MERN Stack Job Application Platform"
           LiveLink="https://career-flow-black.vercel.app/"
           DemoLink="https://github.com/maraheem12/CareerFlow"
