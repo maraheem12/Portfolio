@@ -6,7 +6,8 @@ import dynamic from "next/dynamic";
 const Calendar = dynamic(async () => {
     const mod = await import("react-github-calendar");
     // Defensive return for named or default exports
-    const Component = mod.default || mod.GitHubCalendar || Object.values(mod).find(exp => typeof exp === 'function');
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const Component = (mod as any).default || (mod as any).GitHubCalendar || Object.values(mod).find(exp => typeof exp === 'function');
     if (!Component) {
         const ErrorComponent = () => <p className="text-white">Could not load GitHub stats</p>;
         ErrorComponent.displayName = 'ErrorComponent';
