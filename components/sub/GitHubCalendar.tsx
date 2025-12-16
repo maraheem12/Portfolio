@@ -3,7 +3,7 @@ import React from "react";
 import dynamic from "next/dynamic";
 
 // Dynamic import to avoid SSR issues and potential module resolution problems
-const Calendar = dynamic(async () => {
+const Calendar: React.ComponentType<any> = dynamic(async () => {
     const mod = await import("react-github-calendar");
     // Defensive return for named or default exports
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
