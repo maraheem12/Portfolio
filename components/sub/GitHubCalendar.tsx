@@ -22,10 +22,11 @@ const GitHubCalendar = () => {
             <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                 GitHub Stats
             </h2>
-            <div className="flex justify-center items-center w-full max-w-[900px] bg-[#030014]/50 p-6 rounded-xl border border-[#2A0E61] backdrop-blur-sm overflow-hidden">
+            <div className="flex justify-center items-center w-full md:max-w-6xl bg-[#030014]/50 p-4 md:p-6 rounded-xl border border-[#2A0E61] backdrop-blur-sm overflow-hidden transform scale-90 md:scale-100 origin-center transition-transform duration-300">
                 <Calendar
                     username="maraheem12"
                     colorScheme="dark"
+                    style={{ color: "#ffffff" }}
                     blockSize={15}
                     blockMargin={5}
                     fontSize={16}
