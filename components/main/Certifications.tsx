@@ -48,7 +48,7 @@ const Certifications = () => {
         },
         {
             title: "Generative AI Certification",
-            src: "/certificate8.jpg", // Placeholder
+            src: "/certificate8.JPG", // Placeholder
             description: "Foundational knowledge of generative AI models, prompt engineering, and real-world AI applications.",
             link: "https://drive.google.com/file/d/1ApekWgUTxBcwzjksbb-Kyt-HsZ6h74IF/view"
         }
