@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { SiLeetcode, SiCodeforces, SiCodechef } from "react-icons/si";
 
 const LeetCodeCalendar = () => {
     const months = [
@@ -41,13 +42,47 @@ const LeetCodeCalendar = () => {
                     </div>
                 ))}
             </div>
-            <a
-                href="https://leetcode.com/u/maraheem/"
-                target="_blank"
-                className="text-gray-400 hover:text-white transition-colors mt-2"
-            >
-                View LeetCode Profile
-            </a>
+            {/* Platform Icons */}
+            <div className="flex flex-row gap-8 mt-6">
+                <a
+                    href="https://leetcode.com/u/maraheem/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group"
+                    title="LeetCode Profile"
+                >
+                    <SiLeetcode
+                        size={40}
+                        className="text-gray-400 group-hover:text-[#FFA116] transition-transform duration-300 group-hover:scale-110"
+                    />
+                </a>
+
+                <a
+                    href="https://codeforces.com/profile/maraheem812"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group"
+                    title="Codeforces Profile"
+                >
+                    <SiCodeforces
+                        size={40}
+                        className="text-gray-400 group-hover:text-[#1F8ACB] transition-transform duration-300 group-hover:scale-110"
+                    />
+                </a>
+
+                <a
+                    href="https://www.codechef.com/users/maraheem812"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group"
+                    title="CodeChef Profile"
+                >
+                    <SiCodechef
+                        size={40}
+                        className="text-gray-400 group-hover:text-[#5B4638] transition-transform duration-300 group-hover:scale-110"
+                    />
+                </a>
+            </div>
         </div>
     );
 };
