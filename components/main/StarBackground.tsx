@@ -42,7 +42,7 @@ const StarBackground = (props: JSX.IntrinsicElements["group"]) => {
 
   const localRef = useRef<THREE.Group>(null!);
   const [sphere] = useState<Float32Array>(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 })
+    random.inSphere(new Float32Array(5001), { radius: 1.2 })
   );
   useFrame((state, delta) => {
     // Use your internal 'localRef' for animations
