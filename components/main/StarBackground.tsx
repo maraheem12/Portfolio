@@ -1,12 +1,13 @@
 "use client";
 
-import React, { useState, useRef, Suspense, JSX } from "react";
+import React, { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial } from "@react-three/drei";
 import * as THREE from "three";
 
 import * as random from "maath/random/dist/maath-random.esm";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const StarBackground = (props: any) => {
   // Destructure props to separate the ref from the rest
   const { ...rest } = props;
