@@ -8,7 +8,9 @@ const Calendar = dynamic(async () => {
     // Defensive return for named or default exports
     const Component = mod.default || mod.GitHubCalendar || Object.values(mod).find(exp => typeof exp === 'function');
     if (!Component) {
-        return () => <p className="text-white">Could not load GitHub stats</p>;
+        const ErrorComponent = () => <p className="text-white">Could not load GitHub stats</p>;
+        ErrorComponent.displayName = 'ErrorComponent';
+        return ErrorComponent;
     }
     return Component;
 }, {
