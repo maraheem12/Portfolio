@@ -1,17 +1,22 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { motion } from "framer-motion";
 
 interface Props {
     title: string;
     src: string;
     description: string;
+    link: string;
 }
 
-const CertificationCard = ({ title, src, description }: Props) => {
+const CertificationCard = ({ title, src, description, link }: Props) => {
     return (
-        <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] group cursor-pointer w-[350px] h-[350px]">
+        <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] group cursor-pointer w-[350px] h-[350px] block transition-transform duration-300 hover:scale-[1.02]"
+        >
             <div className="w-full h-full absolute top-0 left-0 bg-[#030014]/50 z-[10] group-hover:bg-[#030014]/20 transition-all duration-300" />
 
             <Image
@@ -35,7 +40,7 @@ const CertificationCard = ({ title, src, description }: Props) => {
                     Verified
                 </div>
             </div>
-        </div>
+        </a>
     );
 };
 
