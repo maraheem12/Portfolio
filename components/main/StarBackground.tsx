@@ -7,7 +7,7 @@ import * as THREE from "three";
 
 import * as random from "maath/random/dist/maath-random.esm";
 
-const StarBackground = (props: JSX.IntrinsicElements["group"]) => {
+const StarBackground = (props: any) => {
   // Destructure props to separate the ref from the rest
   const { ...rest } = props;
 
