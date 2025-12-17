@@ -21,13 +21,13 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
+          {/* <Image
             src="/logo.png"
             alt="logo"
             width={50}
             height={50}
             className="cursor-pointer hover:animate-slowspin"
-          />
+          /> */}
 
           <span className="font-bold ml-[20px] text-2xl hidden md:block text-gray-300">
             M A Raheem

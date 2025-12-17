@@ -91,11 +91,11 @@ export const Skill_data = [
       src: "/github.png",
       link: "https://github.com/maraheem12",
     },
-    {
-      name: "Leetcode",
-      src: "/leetcode.png",
-      link: "https://leetcode.com/u/maraheem/",
-    },
+    // {
+    //   name: "Leetcode",
+    //   src: "/leetcode.png",
+    //   link: "https://leetcode.com/u/maraheem/",
+    // },
   ];
   
   

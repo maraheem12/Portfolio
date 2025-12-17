@@ -12,9 +12,9 @@ export default function Home() {
         <Hero />
         <Skills />
         <Encryption />
+        <Projects />
         <Contributions />
         <Certifications />
-        <Projects />
       </div>
     </main>
   );

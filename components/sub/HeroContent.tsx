@@ -15,7 +15,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-20 mt-30 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -33,12 +33,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+            Turning ideas into
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              impactful{" "}
             </span>
-            project experience
+            project experiences.
           </span>
         </motion.div>
 
@@ -47,9 +47,7 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           I&apos;m{" "}
-          <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r  to-cyan-500 from-purple-500 ">Mohammed Abdul Raheem</span>, a
-          Full Stack Software Engineer with experience in Website and
-          Software development. Check out my projects and skills.
+          <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r  to-cyan-500 from-purple-500 ">Mohammed Abdul Raheem</span>, a motivated Full Stack Software Engineer passionate about building scalable, user-centric web and software solutions. Explore my projects and technical expertise.
         </motion.p>
         <div className="flex flex-col md:flex-row gap-5">
 
