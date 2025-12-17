@@ -13,8 +13,8 @@ const Footer = () => {
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px]">Community</div>
-            <p className="relative z-[20] flex flex-row items-center my-[15px] cursor-pointer">
+            {/* <div className="font-bold text-[16px]">Community</div> */}
+            {/* <p className="relative z-[20] flex flex-row items-center my-[15px] cursor-pointer">
               <FaYoutube />
               <span>
                 <a
@@ -85,7 +85,7 @@ const Footer = () => {
                   About me
                 </a>
               </span>
-              {/* <span className="text-[15px] ml-[6px]">Learning about me</span>     */}
+              {/* <span className="text-[15px] ml-[6px]">Learning about me</span>     
             </p>
             <p className="relative z-[20] flex flex-row items-center my-[15px] cursor-pointer">
               <span>
@@ -98,7 +98,7 @@ const Footer = () => {
                   maraheem812@gmail.com
                 </a>
               </span>
-            </p>
+            </p> */}
           </div>
         </div>
 
