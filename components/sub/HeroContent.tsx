@@ -58,7 +58,7 @@ const HeroContent = () => {
             variants={slideInFromLeft(1)}
             className="py-2 px-10 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           >
-            Learn More
+            Blogs
           </motion.a>
           <motion.a
             href="https://drive.google.com/file/d/1w24bn7Fj5PsLd1F0QNFBg9pwl_pN4FrJ/view?usp=sharing"
