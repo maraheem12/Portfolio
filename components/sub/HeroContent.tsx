@@ -61,7 +61,7 @@ const HeroContent = () => {
             Blogs
           </motion.a>
           <motion.a
-            href="https://drive.google.com/file/d/1w24bn7Fj5PsLd1F0QNFBg9pwl_pN4FrJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CUN2UViudUWzoeT1FmKevLsVK9LRGChZ/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             variants={slideInFromLeft(1)}

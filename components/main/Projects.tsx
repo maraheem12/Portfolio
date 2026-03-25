@@ -10,9 +10,16 @@ const Projects = () => {
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
-      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+      <div className="h-full w-full grid grid-cols-1 md:grid-cols-2 gap-10 px-10">
         <ProjectCard
-          src="/careerflow.PNG" 
+          src="/nextrolenavigator.JPG"
+          title="NextRoleNavigator"
+          LiveLink="https://next-role-navigator.vercel.app/"
+          DemoLink="https://github.com/maraheem12/NextRoleNavigator-Showcase"
+          description="Next Role Navigator is an AI-powered platform that generates personalized career roadmaps and skill gap analyses to help employees reach their target roles. It also features a strategic HR dashboard with a 9-Box Matrix for advanced talent management and organizational growth tracking."
+        />
+        <ProjectCard
+          src="/careerflow.PNG"
           title="CareerFlow – MERN Stack Job Application Platform"
           LiveLink="https://career-flow-black.vercel.app/"
           DemoLink="https://github.com/maraheem12/CareerFlow"
